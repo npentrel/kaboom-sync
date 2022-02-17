@@ -2,13 +2,6 @@
 
 This sample code was created for Local Hack Day Build! Taking part in Local Hack Day and have questions about Twilio, or this code? Drop into the #ask-twilio channel on the MLH Discord.
 
-## How to play
-
-- Clone the repository.
-- `cd` into the cloned directory.
-- Serve it via a webserver, such as `npx serve .`.
-- Open the page in your browser.
-
 ## Setup
 
 1. Create a [Twilio account](https://www.twilio.com/try-twilio)
@@ -22,4 +15,12 @@ This sample code was created for Local Hack Day Build! Taking part in Local Hack
 1. Create a new function, on the `token` route.
 1. Copy and paste the contents of `tokenGenerator.js` into your new function.
 1. Save and deploy the function.
-1. Insert that URL into line 11 of `index.html`, replacing `FUNCTION_URL`.
+1. Copy `index_final.html` to `index.html`.
+1. Insert that URL into line 11 of `index.html`, replacing `TWILIO_FUNCTION_URL`.
+
+## How to play
+
+- Clone the repository.
+- `cd` into the cloned directory.
+- Serve it via a webserver, such as `npx serve .`.
+- Open the page in your browser.
